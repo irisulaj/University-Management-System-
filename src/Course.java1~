@@ -1,0 +1,91 @@
+import java.util.ArrayList; 
+
+// <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+// #[regen=yes,id=DCE.FB758C74-7C26-78DD-930B-2252F34E4C39]
+// </editor-fold> 
+public class Course {
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.31E555B5-DCDD-4C65-E871-BD6029D2207B]
+    // </editor-fold> 
+    private String co_id;
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.3D433DAE-9086-C086-2441-75A91B703EC8]
+    // </editor-fold> 
+    private String coName;
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.4429B76E-A3AC-D8E9-F9B6-D67FBE247D94]
+    // </editor-fold> 
+    private int credits;
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.0C5578ED-6E37-0817-1E63-B36C2B2FACA3]
+    // </editor-fold> 
+    private ArrayList<Student> students = new ArrayList();
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.A271889C-D058-D177-9BAF-CFBF558E1CB3]
+    // </editor-fold> 
+    public Course () {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.C4ACEFB9-372B-93CD-3F45-1A89F64A9AAC]
+    // </editor-fold> 
+    public String getCoName () {
+        return coName;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.B74EEB1D-5EB4-B240-D4E6-77002355F455]
+    // </editor-fold> 
+    public void setCoName (String val) {
+        this.coName = val;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.214B51B4-F492-AAD3-CD1B-D3BFF824CEBD]
+    // </editor-fold> 
+    public String getCo_id () {
+        return co_id;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.7CB88D58-1A20-644A-2C49-CEA46B4D2947]
+    // </editor-fold> 
+    public void setCo_id (String val) {
+        this.co_id = val;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.48F3D6E8-A90B-D2E0-0407-B0376AD48E22]
+    // </editor-fold> 
+    public int getCredits () {
+        return credits;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.2A49D6DF-BF3E-FB69-0736-A07619193854]
+    // </editor-fold> 
+    public void setCredits (int val) {
+        this.credits = val;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.5696945D-B21C-A700-738C-3EB541069B2A]
+    // </editor-fold> 
+    public ArrayList<Student> getStudents () {
+        return students;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,regenBody=yes,id=DCE.BF5F5422-AFD4-EEF2-262B-FCE0D0539A49]
+    // </editor-fold> 
+    public void setStudents (ArrayList<Student> val) {
+        this.students = val;
+    }
+
+}
+
